@@ -14,5 +14,6 @@ The function returns a tibble with MSA column (grouping var ids) and bias-correc
 rank_info(df = tibble(low = c(130, 50,10), high = c(20,10,110), sample_counts = c(30, 15, 25)), 
 grouping_var = c('a', 'a', 'a'))
 
-##### References 
+
+#### References 
 Reardon, Sean F., Kendra Bischoff, Ann Owens, and Joseph B. Townsend. 2018. “Has Income Segregation Really Increased? Bias and Bias Correction in Sample-Based Segregation Estimates.” Demography 55(6):2129–60.
