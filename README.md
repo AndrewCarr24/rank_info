@@ -1,5 +1,5 @@
 ## rank_info
-R Implementation of bias-corrected rank-ordered information theory index
+R Implementation of bias-corrected rank-ordered information theory index from Logan et al. 2018.
 
 Rank order information theory index function for R - rank_info
 
@@ -13,3 +13,6 @@ The function returns a tibble with MSA column (grouping var ids) and bias-correc
 #### Example - Computes income segregation based on two income groups (high and low) for MSA "a"  
 rank_info(df = tibble(low = c(130, 50,10), high = c(20,10,110), sample_counts = c(30, 15, 25)), 
 grouping_var = c('a', 'a', 'a'))
+
+##### References 
+Reardon, Sean F., Kendra Bischoff, Ann Owens, and Joseph B. Townsend. 2018. “Has Income Segregation Really Increased? Bias and Bias Correction in Sample-Based Segregation Estimates.” Demography 55(6):2129–60.
