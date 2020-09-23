@@ -12,8 +12,7 @@ The function returns a tibble with MSA column (grouping var ids) and bias-correc
 
 #### Example - Computes income segregation based on two income groups (high and low) for MSA "a"  
 ``` r
-rank_info(df = tibble(low = c(130, 50,10), high = c(20,10,110), sample_counts = c(30, 15, 25)), 
-grouping_var = c('a', 'a', 'a'))
+rank_info(df = tibble(low = c(130, 50,10), high = c(20,10,110), sample_counts = c(30, 15, 25)), grouping_var = c('a', 'a', 'a'))
 ```
 
 #### References 
