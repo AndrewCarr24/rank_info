@@ -1,5 +1,5 @@
 ## rank_info
-R Implementation of bias-corrected rank-ordered information theory index from Logan et al. 2018.
+R Implementation of bias-corrected rank-order information theory index from Logan et al. 2018.
 
 rank_info function takes 2 arguments - 
 df - tibble/dataframe containing grouped income data (counts in income brackets), followed by column giving unweighted sample counts.
