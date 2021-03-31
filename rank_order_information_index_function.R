@@ -49,7 +49,7 @@ rank_info <- function(df, grouping_var){
     sum(mults*coefs, na.rm = T)
   }) %>% unname %>% unlist 
   
-  return(tibble(MSA = names(incomes_by_msa_list), inc_seg = inc_seg))
+  return(tibble(Region = names(incomes_by_msa_list), inc_seg = inc_seg))
 
 }
 
